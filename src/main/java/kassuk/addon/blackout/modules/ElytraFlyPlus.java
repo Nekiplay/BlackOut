@@ -10,7 +10,7 @@ import meteordevelopment.orbit.EventPriority;
 
 /**
  * @author OLEPOSSU
- */
+ *///
 
 public class ElytraFlyPlus extends BlackOutModule {
     public ElytraFlyPlus() {
