@@ -129,7 +129,6 @@ public class ElytraFlyPlus extends BlackOutModule {
         }
 
         ((IVec3d) event.movement).set(x, y, z);
-        mc.player.setVelocity(0, 0, 0);
     }
 
     private void updateWaspMovement() {
@@ -188,7 +187,6 @@ public class ElytraFlyPlus extends BlackOutModule {
         }
 
         ((IVec3d) event.movement).set(x, y, z);
-        mc.player.setVelocity(0, 0, 0);
     }
 
     private void updateControlMovement() {
